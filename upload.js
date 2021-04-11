@@ -6,8 +6,6 @@
 if (!process.env.CLOUDINARY_CLOUD_NAME || !process.env.CLOUDINARY_API_KEY || !process.env.CLOUDINARY_API_SECRET) {
   console.log('unset envs.');
   return;
-} else {
-  console.log('processed');
 }
 
 const cloudinary = require('cloudinary').v2;
