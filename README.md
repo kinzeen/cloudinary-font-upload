@@ -8,6 +8,9 @@ $ export CLOUDINARY_API_SECRET=<secret key>
 ```
 
 ```bash
+# build
+$ npm install
+
 # execute upload
 $ node upload.js
 ```
